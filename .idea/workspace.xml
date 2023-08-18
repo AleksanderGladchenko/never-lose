@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="08186889-c462-424b-813b-d3f0118a8889" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/1/1/image 112x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/1/BG image2x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/1/image 112x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/BG image2x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main page/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main page/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,27 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/macbookpro/Downloads/BotProject/NEVERLOSE-LEAGUE/Main Page",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "proofread",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/Downloads/BotProject/NEVERLOSE-LEAGUE/Main Page&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Main page" />
@@ -168,11 +175,22 @@
       <workItem from="1691479062341" duration="74000" />
       <workItem from="1691479336535" duration="388000" />
       <workItem from="1691570092767" duration="626000" />
-      <workItem from="1691653721324" duration="1054000" />
+      <workItem from="1691653721324" duration="2832000" />
+      <workItem from="1691762648704" duration="712000" />
+      <workItem from="1691840172813" duration="10179000" />
+      <workItem from="1691910983382" duration="2390000" />
+      <workItem from="1691913446067" duration="1663000" />
+      <workItem from="1691990138768" duration="139000" />
+      <workItem from="1692164047174" duration="6725000" />
+      <workItem from="1692219104009" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
