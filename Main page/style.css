@@ -133,18 +133,7 @@ body {
 }
 
 
-.container-tournaments {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    position: relative;
-    background-color: rgba(110, 47, 47, 0.16);
-    height: 608px;
-    width: 767px;
-    border: 1px solid red;
-}
+
 
 
 
