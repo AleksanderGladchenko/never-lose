@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08186889-c462-424b-813b-d3f0118a8889" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/1/1/image 112x.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/1/BG image2x.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/1/image 112x.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main page/SVG/1/BG image2x.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Main page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main page/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main page/style.css" afterDir="false" />
     </list>
@@ -44,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main1&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/Downloads/BotProject/NEVERLOSE-LEAGUE/Main Page&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -183,6 +179,11 @@
       <workItem from="1691990138768" duration="139000" />
       <workItem from="1692164047174" duration="6725000" />
       <workItem from="1692219104009" duration="29000" />
+      <workItem from="1692354703579" duration="707000" />
+      <workItem from="1692818868550" duration="496000" />
+      <workItem from="1692873412366" duration="262000" />
+      <workItem from="1692958606428" duration="50000" />
+      <workItem from="1692970833176" duration="120000" />
     </task>
     <servers />
   </component>
