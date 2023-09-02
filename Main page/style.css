@@ -1,4 +1,5 @@
 body {
+    hotkey: "commend+1";
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,16 @@ body {
     background-color: #060E14;
     color: bisque;
 }
+
+
+
+
+
+/*1/4 container*/
+
+
+
+
 
 
 .container {
@@ -324,7 +335,7 @@ body {
 .ua {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
-    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 
 }
@@ -354,6 +365,15 @@ body {
 
 
 
+
+
+/*CENTER*/
+
+
+
+
+
+
 .content-block {
     display: flex;
     flex-direction: column;
@@ -361,11 +381,15 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 236px;
-    border: 1px solid red;
-
+    top: 167px;
+    border: 0.5px solid red;
 
 }
+
+
+
+/*topbox*/
+
 
 .content-block-top {
     display: flex;
@@ -377,33 +401,13 @@ body {
     flex-shrink: 0;
     position: relative;
     height: 24px;
-}
+    border: 0.5px solid red;
 
-
-
-.neverlose-league {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-    height: 413px;
-    width: 555px;
-    position: relative;
-    border: 1px solid red;
-}
-
-.content-block-center {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
 .line1 {
     border: 3px solid #334753;
-    width: 30.75px;
+    width: 30px;
     border-radius: 5px;
 
 }
@@ -450,17 +454,256 @@ body {
 }
 
 
+/*CENTERBOX*/
+
+
+
+
+
+/*2manecenterbox*/
+
+
+
+
+.neverlose-league {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, rgba(3, 169, 244, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    border-image-slice: 1;
+    width: 767px;
+    height: 500px;
+    position: relative;
+    border: 0.5px solid red;
+
+
+}
+
+
+/*childebox*/
+
+
+
+.childebox {
+    width: 555px;
+    height:413px;
+    top: 44px;
+    left: 106px;
+    gap: 40px;
+    position: relative;
+    border: 0.5px solid red;
+}
+
+.neverlosemane {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    border: 0.5px solid red;
+
+
+}
+
+.neverlose0 {
+    flex-shrink: 0;
+    width: 555px;
+    height: 119px;
+    position: relative;
+    border: 0.5px solid red;
+
+}
+
+.neverlose22 {
+    color: var(--dark-text-action-2, #02528b);
+    text-align: left;
+    font: 400 90px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: -1px;
+    top: 4px;
+    width: 550.86px;
+}
+.neverlose33 {
+    color: var(--primary, #03a9f4);
+    text-align: left;
+    font: 400 90px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 1.07px;
+    top: 2px;
+    width: 550.86px;
+}
+.neverlose44 {
+    color: var(--ligth-text, #fdfeff);
+    text-align: left;
+    font: 400 90px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 3.14px;
+    top: 0px;
+    width: 550.86px;
+}
+
+
+.league111 {
+    flex-shrink: 0;
+    width: 251px;
+    height: 81px;
+    position: relative;
+    border: 0.5px solid red;
+
+}
+.league22 {
+    color: var(--dark-text-action-2, #02528b);
+    text-align: left;
+    font: 400 64px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 152px;
+    top: 6px;
+}
+.league33 {
+    color: var(--danger, #a02323);
+    text-align: left;
+    font: 400 64px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 154px;
+    top: 4px;
+}
+.league44 {
+    color: var(--accent-yellow-gold, #c29b1e);
+    text-align: left;
+    font: 400 64px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 156px;
+    top: 2px;
+}
+
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 145px;
+    position: relative;
+    border: 0.5px solid red;
+
+}
+.posy {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.get-matched-with-like-minded-gamers {
+    color: var(--shaded-text, #c1c2c3);
+    text-align: center;
+    font: 400 16px/25px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    width: 345px;
+}
+.show-us-what-you-can-do {
+    color: var(--ligth-text, #fdfeff);
+    text-align: center;
+    font: 400 16px/25px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    width: 345px;
+}
+.button {
+    background: var(--primary, #03a9f4);
+    border-radius: 4px;
+    padding: 12px 52px 12px 52px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.create-an-account {
+    color: var(--ligth-text, #fdfeff);
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+
+
+
 .content-block-bottom {
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
     gap: 50px;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
-    border: 1px solid red;
 }
+
+
+.line11 {
+    border: 3px solid #334753;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.neverlose_integration {
+    color: var(--description, #334753);
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line22 {
+    border: 3px solid #334753;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.rating-system {
+    color: var(--description, #334753);
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line33 {
+    border: 3px solid #334753;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/*2/4container*/
+
+
+
+
+
+
 
 
 .container-tournaments {
