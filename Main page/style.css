@@ -852,7 +852,6 @@ body {
     position: absolute;
     left: 655px;
     top: 238px;
-    border: 0.5px red solid;
 
 }
 .glow {
@@ -871,23 +870,7 @@ body {
     transform-origin: 0 0;
     transform: rotate(-10.622deg) scale(1, 1);
 }
-.group-18 {
-    flex-shrink: 0;
-    width: 881px;
-    height: 318px;
-    position: static;
-}
-.team-a {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 357px;
-    position: absolute;
-    left: 0;
-    top: 75%;
-}
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -897,44 +880,14 @@ body {
     flex-shrink: 0;
     position: relative;
 }
-.team-description {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-shrink: 0;
-    position: relative;
-}
-.name {
-    color: var(--ligth-text, #fdfeff);
-    text-align: left;
-    font: 400 24px "Museo Sans Cyrl", sans-serif;
-    text-transform: uppercase;
-    position: relative;
-}
-.frame-27 {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: flex-end;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-.as-team {
-    color: var(--shaded-text, #c1c2c3);
-    text-align: left;
-    font: 400 16px "Museo Sans Cyrl", sans-serif;
-    position: relative;
-}
-.symbol {
-    color: var(--primary, #03a9f4);
-    text-align: left;
-    font: 400 24px "Museo Sans Cyrl", sans-serif;
-    text-transform: uppercase;
-    position: relative;
-}
+
+.first_img {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+
 .team-b {
     display: flex;
     flex-direction: column;
@@ -961,14 +914,7 @@ body {
     text-transform: uppercase;
     position: relative;
 }
-.vector {
-    border-radius: 0px;
-    position: absolute;
-    left: 407.67px;
-    top: 135.59px;
-    transform: translate(0.64px, -7.24px);
-    overflow: visible;
-}
+
 .h-2-title {
     display: flex;
     flex-direction: row;
