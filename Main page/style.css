@@ -66,7 +66,7 @@ body {
     flex-shrink: 0;
     width: 163px;
     height: 49px;
-    position: relative;x
+    position: relative;
     color: bisque;
 }
 
@@ -359,6 +359,8 @@ body {
     font: 400 12px "Museo Sans Cyrl", sans-serif;
     text-transform: uppercase;
     position: relative;
+    cursor: pointer;
+
 
 }
 
@@ -491,7 +493,7 @@ body {
 .neverlosemane {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 0;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
@@ -532,7 +534,7 @@ body {
     font: 400 90px "Museo Sans Cyrl", sans-serif;
     position: absolute;
     left: 3.14px;
-    top: 0px;
+    top: 0;
     width: 550.86px;
 }
 
@@ -617,7 +619,7 @@ body {
     padding: 12px 52px 12px 52px;
     display: flex;
     flex-direction: row;
-    gap: 0px;
+    gap: 0;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
@@ -704,7 +706,7 @@ body {
     box-sizing: border-box;
 }
 ._2-advantages-tournaments {
-    padding: 120px 0px 120px 0px;
+    padding: 120px 0 120px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -896,7 +898,7 @@ body {
     justify-content: flex-end;
     position: absolute;
     left: 524px;
-    top: 0px;
+    top: 0;
 }
 .team-description2 {
     display: flex;
@@ -933,7 +935,7 @@ body {
     width: 5.23px;
     height: 5px;
     position: relative;
-    box-shadow: 2px 0px 10px 0px rgba(3, 169, 244, 1);
+    box-shadow: 2px 0 10px 0 rgba(3, 169, 244, 1);
 }
 .title-block {
     color: var(--ligth-text, #fdfeff);
@@ -971,7 +973,7 @@ body {
 
 
 .container-tournaments2 {
-    padding: 80px 0px 120px 0px;
+    padding: 80px 0 120px 0;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -1028,7 +1030,7 @@ body {
     width: 5.23px;
     height: 5px;
     position: relative;
-    box-shadow: 2px 0px 10px 0px rgba(3, 169, 244, 1);
+    box-shadow: 2px 0 10px 0 rgba(3, 169, 244, 1);
 }
 
 
@@ -1081,7 +1083,7 @@ body {
 }
 
 
-.tour_text-span3{
+.tour_text-span3 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
@@ -1095,6 +1097,19 @@ body {
 
 /*2*/
 
+
+
+
+.tour_row_two {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
 
 .title11 {
     color: var(--ligth-text, #fdfeff);
@@ -1141,27 +1156,30 @@ body {
 }
 
 
-.text-span55 {
 
-}
 
-.text-span66 {
-
-}
 
 
 /*4*/
 
 
+
+
+
 .tour_row_four {
-
-}
-.title22 {
-
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .text {
-
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
 
 .text-span7 {
@@ -1170,7 +1188,8 @@ body {
 }
 
 .text-3-span2 {
-
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
 
 .text-span8 {
@@ -1196,12 +1215,13 @@ body {
 .button_img {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 0;
     align-items: flex-end;
     justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
-    position: relative;}
+    position: relative;
+}
 
 
 
@@ -1222,6 +1242,7 @@ body {
     top: calc(50% - 277px);
 }
 
+
 .tour_line-1_r {
     border: 3px solid #2b4459;
     width: 1px;
@@ -1238,6 +1259,7 @@ body {
     text-transform: uppercase;
     position: relative;
 }
+
 .tour_ellipse-1100_r {
     background: var(--primary, #03a9f4);
     border-radius: 50%;
@@ -1245,7 +1267,7 @@ body {
     width: 5.23px;
     height: 5px;
     position: relative;
-    box-shadow: 2px 0px 10px 0px rgba(3, 169, 244, 1);
+    box-shadow: 2px 0 10px 0 rgba(3, 169, 244, 1);
 }
 
 
@@ -1314,7 +1336,14 @@ body {
 
 
 .tour_row_two_r {
-
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .title11_r {
@@ -1325,7 +1354,10 @@ body {
 }
 
 .text11_r {
-
+    color: var(--shaded-text, #c1c2c3);
+    text-align: left;
+    position: relative;
+    align-self: stretch;
 }
 
 .title-span22_r {
@@ -1337,7 +1369,14 @@ body {
 /*3*/
 
 .tour_row_three_r {
-
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .title22_r {
@@ -1354,27 +1393,26 @@ body {
 }
 
 
-.text-span55_r {
-
-}
-
-.text-span66_r {
-
-}
 
 
 /*4*/
 
 
 .tour_row_four_r {
-
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
 }
-.title22_r {
 
-}
 
 .text_r {
-
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
 
 .text-span7_r {
@@ -1388,7 +1426,8 @@ body {
 }
 
 .text-3-span2_r {
-
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
 
 
@@ -1435,23 +1474,224 @@ body {
 
 
 
-
-
-
 .NeverloseIntegration {
     padding: 80px 192px 120px 192px;
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    border: 1px solid red;
+}
+
+
+
+
+/*left img*/
+
+
+
+
+
+.ni_svg {
+    position: relative;
+}
+
+
+
+
+/*right text*/
+
+
+
+
+.right_text {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 72px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-shrink: 0;
-    width: 1536px;
-    height: 783px;
     position: relative;
-    border: 1px solid red;
-
 }
+
+.right_title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.ellipse_right {
+    background: var(--primary, #03a9f4);
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 5.23px;
+    height: 5px;
+    position: relative;
+    box-shadow: 2px 0px 10px 0px rgba(3, 169, 244, 1);
+}
+.title_block_right {
+    color: var(--ligth-text, #fdfeff);
+    text-align: left;
+    font: 400 24px/32px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.line_right {
+    border: 3px solid #334753;
+    width: 302px;
+    border-radius: 5px;
+}
+
+
+.text_ni {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.text2_ni {
+    color: var(--shaded-text, #c1c2c3);
+    text-align: left;
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    width: 643px;
+}
+.list_ni {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.row_ni {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.title_ni {
+    color: var(--ligth-text, #fdfeff);
+    text-align: left;
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.text3_ni {
+    color: var(--shaded-text, #c1c2c3);
+    text-align: left;
+    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
+    position: relative;
+    align-self: stretch;
+}
+.title2_ni {
+    color: var(--ligth-text, #fdfeff);
+    text-align: left;
+    position: relative;
+}
+.title-2-span_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+}
+.title-2-span2_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
+}
+.title-2-span3_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+}
+.title-2-span4_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+}
+.title-2-span5_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
+}
+.title-2-span6_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+}
+.title-2-span7_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+}
+.title-2-span8_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
+}
+.title-2-span9_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+}
+.text4_ni {
+    color: var(--shaded-text, #c1c2c3);
+    text-align: left;
+    position: relative;
+    align-self: stretch;
+}
+.text-4-span_ni {
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
+}
+.text-4-span2_ni {
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
+}
+.text-4-span3_ni {
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
+}
+.text-4-span4_ni {
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
+}
+.text-4-span5_ni {
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
+}
+.text-4-span6_ni {
+    color: var(--shaded-text, #c1c2c3);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
+}
+.title-2-span10_ni {
+    color: var(--ligth-text, #fdfeff);
+    font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
+}
+._nititle-2-span11 {
+    color: var(--ligth-text, #fdfeff);
+    font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
