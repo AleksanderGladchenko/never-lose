@@ -701,10 +701,6 @@ body {
 
 
 
-._2-advantages-tournaments,
-._2-advantages-tournaments * {
-    box-sizing: border-box;
-}
 ._2-advantages-tournaments {
     padding: 120px 0 120px 0;
     display: flex;
@@ -992,7 +988,15 @@ body {
 /*title left*/
 
 
-
+.left_text_ct {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
 
 
 .tour_h-2-title {
