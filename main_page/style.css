@@ -1696,6 +1696,31 @@ body {
 
 
 
+/*5/5 container */
+
+
+
+
+
+
+
+
+
+
+.footer_row {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1536px;
+    position: relative;
+    border: 1px solid red;
+}
+
+
+
 
 
 
@@ -1712,6 +1737,183 @@ body {
     height: 327px;
     position: relative;
     border: 1px solid red;
+}
+
+
+
+
+.logo_f {
+    flex-shrink: 0;
+    width: 163px;
+    height: 49px;
+    position: relative;
+    color: bisque;
+}
+
+
+.neverlose_f {
+    color: var(--dark-text-action-2, #02528b);
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+.neverlose2_f {
+    color: var(--primary, #03a9f4);
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 1.07px;
+    top: 1px;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+.neverlose3_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 2.14px;
+    top: 0;
+    width: 160.86px;
+    font-weight: bold;
 
 }
 
+.league_f {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    inset: 0;
+    font-weight: bold;
+
+
+}
+
+.league2_f {
+    color: var(--dark-text-action-2, #02528b);
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 105.28px;
+    top: 30px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+.league3_f {
+    color: var(--danger, #a02323);
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 106.28px;
+    top: 29px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+.league4_f {
+    color: var(--accent-yellow-gold, #c29b1e);
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 107.28px;
+    top: 28px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+
+
+.frame_59_f {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+    border: 1px solid red;
+}
+
+
+.frame-41_f {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.pages_f {
+    color: #ffffff;
+    text-align: right;
+    font: 400 24px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.frame_60_f {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.menu_f {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.home_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.game_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.market_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.rating_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.tournaments_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.tickets_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
