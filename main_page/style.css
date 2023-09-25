@@ -402,7 +402,7 @@ body {
 }
 
 .line1 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 30px;
     border-radius: 5px;
 
@@ -417,7 +417,7 @@ body {
 }
 
 .line2 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 30px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -431,7 +431,7 @@ body {
 }
 
 .line3 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 30px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -445,7 +445,7 @@ body {
 }
 
 .line4 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 30px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -649,7 +649,7 @@ body {
 
 
 .line11 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 50px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -663,7 +663,7 @@ body {
 }
 
 .line22 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 50px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -677,7 +677,7 @@ body {
 }
 
 .line33 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 50px;
     border-radius: 5px 5px 5px 5px;
 }
@@ -944,7 +944,7 @@ body {
 }
 
 .line-1 {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 1px;
     border-radius: 5px 5px 5px 5px;
     flex: 1;
@@ -957,7 +957,7 @@ body {
 
 
 .container-tournaments2 {
-    padding: 80px 0px 120px 0px;
+    padding: 80px 0 120px 0;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -965,8 +965,7 @@ body {
     flex-shrink: 0;
     width: 1534.91px;
     position: relative;
-    border: 1px solid red;
-}
+ }
 
 
 /*3/5 container > title left*/
@@ -993,7 +992,7 @@ body {
 }
 
 .tour_line-1 {
-    border: 3px solid #2b4459;
+    border: 1px solid #2b4459;
     width: 1px;
     border-radius: 5px 5px 5px 5px;
     flex: 1;
@@ -1211,7 +1210,7 @@ body {
 
 
 .tour_line-1_r {
-    border: 3px solid #2b4459;
+    border: 1px solid #2b4459;
     width: 1px;
     border-radius: 5px 5px 5px 5px;
     flex: 1;
@@ -1399,7 +1398,6 @@ body {
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
-    border: 1px solid red;
 }
 
 
@@ -1441,7 +1439,7 @@ body {
     width: 5.23px;
     height: 5px;
     position: relative;
-    box-shadow: 2px 0px 10px 0px rgba(3, 169, 244, 1);
+    box-shadow: 2px 0 10px 0 rgba(3, 169, 244, 1);
 }
 
 .title_block_right {
@@ -1453,7 +1451,7 @@ body {
 }
 
 .line_right {
-    border: 3px solid #334753;
+    border: 2px solid #334753;
     width: 302px;
     border-radius: 5px;
 }
@@ -1621,14 +1619,13 @@ body {
     padding: 60px 192px 20px 192px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 74px;
     align-items: center;
     justify-content: flex-start;
     flex-shrink: 0;
     width: 1536px;
     height: 327px;
     position: relative;
-    border: 1px solid red;
 }
 
 
@@ -1641,10 +1638,7 @@ body {
     flex-shrink: 0;
     width: 1536px;
     position: relative;
-    border: 1px solid red;
 }
-
-
 
 
 .logo_f {
@@ -1750,8 +1744,6 @@ body {
     justify-content: space-between;
     flex: 1;
     position: relative;
-    border: 1px solid red;
-
 }
 
 
@@ -1954,12 +1946,14 @@ body {
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .contacts {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .vk {
     display: flex;
     flex-direction: row;
@@ -1969,11 +1963,13 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .vk_svg {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .vkontakte {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
@@ -1990,11 +1986,13 @@ body {
     flex-shrink: 0;
 
 }
+
 .payment_system {
     color: #ffffff;
     text-align: right;
     font: 400 24px "Museo Sans Cyrl", sans-serif;
 }
+
 .cards_footer {
     display: flex;
     flex-direction: column;
@@ -2004,6 +2002,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .visa {
     display: flex;
     flex-direction: row;
@@ -2013,11 +2012,13 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .visa_svg {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .visa_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
@@ -2034,6 +2035,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .mastercard_svg {
     display: flex;
     flex-direction: row;
@@ -2043,6 +2045,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .mastercard_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
@@ -2059,6 +2062,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .mid_svf {
     display: flex;
     flex-direction: row;
@@ -2068,6 +2072,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .mir_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
@@ -2090,6 +2095,7 @@ body {
     font: 400 12px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .neverlose-llp-company-number-oc-437498 {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
