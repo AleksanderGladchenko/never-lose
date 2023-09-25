@@ -10,14 +10,7 @@ body {
 }
 
 
-
-
-
-/*1/4 container*/
-
-
-
-
+/*1/5 container*/
 
 
 .container {
@@ -46,7 +39,6 @@ body {
     opacity: 0.04;
 
 }
-
 
 
 .top-container {
@@ -82,6 +74,7 @@ body {
     font-weight: bold;
 
 }
+
 .neverlose2 {
     color: var(--primary, #03a9f4);
     text-align: left;
@@ -93,6 +86,7 @@ body {
     font-weight: bold;
 
 }
+
 .neverlose3 {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -128,6 +122,7 @@ body {
     font-weight: bold;
 
 }
+
 .league3 {
     color: var(--danger, #a02323);
     text-align: left;
@@ -140,6 +135,7 @@ body {
     font-weight: bold;
 
 }
+
 .league4 {
     color: var(--accent-yellow-gold, #c29b1e);
     text-align: left;
@@ -192,43 +188,48 @@ body {
     text-decoration: underline;
     position: relative;
 }
+
 .play {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .market {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .rating {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .tournaments {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .tickets {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .faq {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
-
 
 
 .top-container > .nav-container {
@@ -317,6 +318,7 @@ body {
     position: relative;
 
 }
+
 .eng {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -324,6 +326,7 @@ body {
     position: relative;
 
 }
+
 . {
     color: var(--dark-text-action, #205e7b);
     text-align: left;
@@ -331,6 +334,7 @@ body {
     position: relative;
 
 }
+
 .ua {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
@@ -353,6 +357,7 @@ body {
     height: 25px;
     position: relative;
 }
+
 .login {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -365,14 +370,7 @@ body {
 }
 
 
-
-
-
-/*CENTER*/
-
-
-
-
+/*1/5 container > center*/
 
 
 .content-block {
@@ -387,8 +385,7 @@ body {
 }
 
 
-
-/*topbox */
+/*1/5 container > topbox */
 
 
 .content-block-top {
@@ -410,6 +407,7 @@ body {
     border-radius: 5px;
 
 }
+
 .tour {
     color: var(--primary, #03a9f4);
     text-align: left;
@@ -453,15 +451,10 @@ body {
 }
 
 
-/*CENTERBOX*/
+/* 1/5 container > CENTERBOX*/
 
 
-
-
-
-/*2manecenterbox*/
-
-
+/*1/5 container > 2manecenterbox*/
 
 
 .neverlose-league {
@@ -477,13 +470,12 @@ body {
 }
 
 
-/*childebox*/
-
+/*1/5 container > childebox*/
 
 
 .childebox {
     width: 555px;
-    height:413px;
+    height: 413px;
     top: 44px;
     left: 106px;
     gap: 40px;
@@ -519,6 +511,7 @@ body {
     top: 4px;
     width: 550.86px;
 }
+
 .neverlose33 {
     color: var(--primary, #03a9f4);
     text-align: left;
@@ -528,6 +521,7 @@ body {
     top: 2px;
     width: 550.86px;
 }
+
 .neverlose44 {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -546,6 +540,7 @@ body {
     position: relative;
 
 }
+
 .league22 {
     color: var(--dark-text-action-2, #02528b);
     text-align: left;
@@ -555,6 +550,7 @@ body {
     left: 152px;
     top: 6px;
 }
+
 .league33 {
     color: var(--danger, #a02323);
     text-align: left;
@@ -564,6 +560,7 @@ body {
     left: 154px;
     top: 4px;
 }
+
 .league44 {
     color: var(--accent-yellow-gold, #c29b1e);
     text-align: left;
@@ -587,6 +584,7 @@ body {
     position: relative;
 
 }
+
 .posy {
     display: flex;
     flex-direction: column;
@@ -597,6 +595,7 @@ body {
     position: relative;
 
 }
+
 .get-matched-with-like-minded-gamers {
     color: var(--shaded-text, #c1c2c3);
     text-align: center;
@@ -605,6 +604,7 @@ body {
     position: relative;
     width: 345px;
 }
+
 .show-us-what-you-can-do {
     color: var(--ligth-text, #fdfeff);
     text-align: center;
@@ -613,6 +613,7 @@ body {
     position: relative;
     width: 345px;
 }
+
 .button {
     background: var(--primary, #03a9f4);
     border-radius: 4px;
@@ -625,6 +626,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .create-an-account {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -632,9 +634,6 @@ body {
     text-transform: uppercase;
     position: relative;
 }
-
-
-
 
 
 .content-block-bottom {
@@ -684,21 +683,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-/*2/4container*/
-
-
-
-
-
-
+/*2/5container*/
 
 
 ._2-advantages-tournaments {
@@ -712,6 +697,7 @@ body {
     width: 1536px;
     position: relative;
 }
+
 ._2-advantages-tournaments2 {
     flex-shrink: 0;
     width: 1536px;
@@ -730,6 +716,7 @@ body {
     left: 15px;
     top: 220px;
 }
+
 .row {
     display: flex;
     flex-direction: column;
@@ -740,6 +727,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .text {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
@@ -787,58 +775,67 @@ body {
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .text-span5 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-span6 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-span7 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-span8 {
     color: var(--shaded-text, #c1c2c3);
     font: 400 20px/24px "Museo Sans Cyrl", sans-serif;
 }
+
 .text-span9 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-span10 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .text2 {
     text-align: left;
     position: relative;
     align-self: stretch;
 }
+
 .text-2-span {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-2-span2 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-2-span3 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-2-span4 {
     color: var(--ligth-text, #fdfeff);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-2-span5 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
-
-
-
 
 
 .img {
@@ -852,6 +849,7 @@ body {
     top: 238px;
 
 }
+
 .glow {
     background: radial-gradient(
             closest-side,
@@ -883,7 +881,7 @@ body {
     top: 0;
     left: 0;
     position: absolute;
-  }
+}
 
 
 .team-b {
@@ -896,6 +894,7 @@ body {
     left: 524px;
     top: 0;
 }
+
 .team-description2 {
     display: flex;
     flex-direction: column;
@@ -905,6 +904,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .symbol2 {
     color: var(--danger, #a02323);
     text-align: left;
@@ -924,6 +924,7 @@ body {
     left: calc(50% - 768px);
     top: calc(50% - 277px);
 }
+
 .ellipse-1100 {
     background: var(--primary, #03a9f4);
     border-radius: 50%;
@@ -933,6 +934,7 @@ body {
     position: relative;
     box-shadow: 2px 0 10px 0 rgba(3, 169, 244, 1);
 }
+
 .title-block {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -940,6 +942,7 @@ body {
     text-transform: uppercase;
     position: relative;
 }
+
 .line-1 {
     border: 3px solid #334753;
     width: 1px;
@@ -950,26 +953,11 @@ body {
 }
 
 
-
-
-
-
-
-
-
-/*3/4 container */
-
-
-
-
-
-
-
-
+/*3/5 container */
 
 
 .container-tournaments2 {
-    padding: 80px 0 120px 0;
+    padding: 80px 0px 120px 0px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -977,15 +965,11 @@ body {
     flex-shrink: 0;
     width: 1534.91px;
     position: relative;
-    height: 554px;
     border: 1px solid red;
 }
 
 
-
-
-
-/*title left*/
+/*3/5 container > title left*/
 
 
 .left_text_ct {
@@ -1006,9 +990,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 487px;
-    position: relative;
-    left: calc(50% - 768px);
-    top: calc(50% - 277px);
 }
 
 .tour_line-1 {
@@ -1027,6 +1008,7 @@ body {
     text-transform: uppercase;
     position: relative;
 }
+
 .tour_ellipse-1100 {
     background: var(--primary, #03a9f4);
     border-radius: 50%;
@@ -1049,10 +1031,7 @@ body {
 }
 
 
-
-
-/*1*/
-
+/* 3/5 container > title left > 1 row*/
 
 
 .tour_row_one {
@@ -1081,7 +1060,7 @@ body {
 }
 
 
-.tour_text-span2 {
+.tour_text_span2 {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
@@ -1099,9 +1078,7 @@ body {
 }
 
 
-/*2*/
-
-
+/*3/5 container > title left > 2 row*/
 
 
 .tour_row_two {
@@ -1133,7 +1110,7 @@ body {
 }
 
 
-/*3*/
+/*3/5 container > title left > 3 row*/
 
 .tour_row_three {
     display: flex;
@@ -1160,14 +1137,7 @@ body {
 }
 
 
-
-
-
-
-/*4*/
-
-
-
+/*3/5 container > title left > 4 row*/
 
 
 .tour_row_four {
@@ -1202,18 +1172,7 @@ body {
 }
 
 
-
-
-
-
-
-/*middle_img*/
-
-
-
-
-
-
+/*3/5 container > middle_img*/
 
 
 .button_img {
@@ -1228,10 +1187,17 @@ body {
 }
 
 
+/* 3/5 container > list right*/
 
-
-/*list right*/
-
+.left_text_ct_r {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
 
 
 .tour_h-2-title_r {
@@ -1240,10 +1206,7 @@ body {
     gap: 20px;
     align-items: center;
     justify-content: center;
-    width: 487px;
-    position: relative;
-    left: calc(50% - 768px);
-    top: calc(50% - 277px);
+    width: 470px;
 }
 
 
@@ -1278,7 +1241,7 @@ body {
 .tour_list1_r {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 35px;
     align-items: flex-start;
     justify-content: flex-start;
     width: 472px;
@@ -1286,10 +1249,7 @@ body {
 }
 
 
-
-
-/*1*/
-
+/*3/5 container > list right >  1 row*/
 
 
 .tour_row_one_r {
@@ -1324,19 +1284,7 @@ body {
 }
 
 
-.tour_text-span3_r {
-    color: var(--shaded-text, #c1c2c3);
-    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
-}
-
-
-.tour_text-span4_r {
-    color: var(--shaded-text, #c1c2c3);
-    font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
-}
-
-
-/*2*/
+/*3/5 container > list right >  2 row*/
 
 
 .tour_row_two_r {
@@ -1370,7 +1318,7 @@ body {
 }
 
 
-/*3*/
+/*3/5 container > list right >  3 row*/
 
 .tour_row_three_r {
     display: flex;
@@ -1397,9 +1345,7 @@ body {
 }
 
 
-
-
-/*4*/
+/*3/5 container > list right >  4 row*/
 
 
 .tour_row_four_r {
@@ -1441,41 +1387,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*4/5 container*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .NeverloseIntegration {
@@ -1491,12 +1403,7 @@ body {
 }
 
 
-
-
-/*left img*/
-
-
-
+/*4/5 container > left img*/
 
 
 .ni_svg {
@@ -1504,11 +1411,7 @@ body {
 }
 
 
-
-
-/*right text*/
-
-
+/*4/5 container > right text*/
 
 
 .right_text {
@@ -1530,6 +1433,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .ellipse_right {
     background: var(--primary, #03a9f4);
     border-radius: 50%;
@@ -1539,6 +1443,7 @@ body {
     position: relative;
     box-shadow: 2px 0px 10px 0px rgba(3, 169, 244, 1);
 }
+
 .title_block_right {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -1546,6 +1451,7 @@ body {
     text-transform: uppercase;
     position: relative;
 }
+
 .line_right {
     border: 3px solid #334753;
     width: 302px;
@@ -1562,6 +1468,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .text2_ni {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
@@ -1569,6 +1476,7 @@ body {
     position: relative;
     width: 643px;
 }
+
 .list_ni {
     display: flex;
     flex-direction: column;
@@ -1579,6 +1487,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .row_ni {
     display: flex;
     flex-direction: column;
@@ -1589,12 +1498,14 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .title_ni {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .text3_ni {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
@@ -1602,109 +1513,123 @@ body {
     position: relative;
     align-self: stretch;
 }
+
 .title2_ni {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
     position: relative;
 }
+
 .title-2-span_ni {
     color: var(--ligth-text, #fdfeff);
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
 }
+
 .title-2-span2_ni {
     color: var(--ligth-text, #fdfeff);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .title-2-span3_ni {
     color: var(--ligth-text, #fdfeff);
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
 }
+
 .title-2-span4_ni {
     color: var(--ligth-text, #fdfeff);
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
 }
+
 .title-2-span5_ni {
     color: var(--ligth-text, #fdfeff);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .title-2-span6_ni {
     color: var(--ligth-text, #fdfeff);
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
 }
+
 .title-2-span7_ni {
     color: var(--ligth-text, #fdfeff);
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
 }
+
 .title-2-span8_ni {
     color: var(--ligth-text, #fdfeff);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .title-2-span9_ni {
     color: var(--ligth-text, #fdfeff);
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
 }
+
 .text4_ni {
     color: var(--shaded-text, #c1c2c3);
     text-align: left;
     position: relative;
     align-self: stretch;
 }
+
 .text-4-span_ni {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-4-span2_ni {
     color: var(--shaded-text, #c1c2c3);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-4-span3_ni {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-4-span4_ni {
     color: var(--shaded-text, #c1c2c3);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-4-span5_ni {
     color: var(--shaded-text, #c1c2c3);
     font: var(--body, 400 14px/24px "Museo Sans Cyrl", sans-serif);
 }
+
 .text-4-span6_ni {
     color: var(--shaded-text, #c1c2c3);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
+
 .title-2-span10_ni {
     color: var(--ligth-text, #fdfeff);
     font: 400 16px/26px "Museo Sans Cyrl", sans-serif;
 }
+
 ._nititle-2-span11 {
     color: var(--ligth-text, #fdfeff);
     font: var(--emoji, 400 20px/26px "Museo Sans Cyrl", sans-serif);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*5/5 container */
 
 
+.footer {
 
-
-
-
-
-
+    padding: 60px 192px 20px 192px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1536px;
+    height: 327px;
+    position: relative;
+    border: 1px solid red;
+}
 
 
 .footer_row {
@@ -1715,26 +1640,6 @@ body {
     justify-content: flex-start;
     flex-shrink: 0;
     width: 1536px;
-    position: relative;
-    border: 1px solid red;
-}
-
-
-
-
-
-
-.footer {
-
-    padding: 60px 192px 20px 192px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 1536px;
-    height: 327px;
     position: relative;
     border: 1px solid red;
 }
@@ -1762,6 +1667,7 @@ body {
     font-weight: bold;
 
 }
+
 .neverlose2_f {
     color: var(--primary, #03a9f4);
     text-align: left;
@@ -1773,6 +1679,7 @@ body {
     font-weight: bold;
 
 }
+
 .neverlose3_f {
     color: var(--ligth-text, #fdfeff);
     text-align: left;
@@ -1808,6 +1715,7 @@ body {
     font-weight: bold;
 
 }
+
 .league3_f {
     color: var(--danger, #a02323);
     text-align: left;
@@ -1820,6 +1728,7 @@ body {
     font-weight: bold;
 
 }
+
 .league4_f {
     color: var(--accent-yellow-gold, #c29b1e);
     text-align: left;
@@ -1842,6 +1751,7 @@ body {
     flex: 1;
     position: relative;
     border: 1px solid red;
+
 }
 
 
@@ -1853,7 +1763,6 @@ body {
     justify-content: flex-start;
     flex-shrink: 0;
     position: relative;
-    border: 1px solid red;
 
 }
 
@@ -1862,7 +1771,9 @@ body {
     text-align: right;
     font: 400 24px "Museo Sans Cyrl", sans-serif;
     position: relative;
+
 }
+
 .frame_60_f {
     display: flex;
     flex-direction: row;
@@ -1871,7 +1782,9 @@ body {
     justify-content: flex-start;
     flex-shrink: 0;
     position: relative;
+
 }
+
 .menu_f {
     display: flex;
     flex-direction: column;
@@ -1881,39 +1794,306 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .home_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .game_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .market_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .rating_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .tournaments_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .tickets_f {
     color: var(--ligth-text, #fdfeff);
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
+
+/*useful links*/
+
+
+.frame-42_f {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+
+}
+
+
+.frame_60_f {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+
+}
+
+.useful-links_f {
+    color: #ffffff;
+    text-align: right;
+    font: 400 24px "Museo Sans Cyrl", sans-serif;
+}
+
+.menu_footer_left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.terms-of-use_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.privacy-policy_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.telegram {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.tlg_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.telegram_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.nl_gmail {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.ns_gmail_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.nl_gmail_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.faq_help_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.contacts {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.vk {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.vk_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.vkontakte {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.box3_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+
+}
+.payment_system {
+    color: #ffffff;
+    text-align: right;
+    font: 400 24px "Museo Sans Cyrl", sans-serif;
+}
+.cards_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.visa {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.visa_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.visa_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.mastercard {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.mastercard_svg {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.mastercard_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.mir {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.mid_svf {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.mir_f {
+    color: var(--ligth-text, #fdfeff);
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.cc {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.neverlose-cc-2020-2023 {
+    color: var(--shaded-text, #c1c2c3);
+    text-align: left;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+.neverlose-llp-company-number-oc-437498 {
+    color: var(--shaded-text, #c1c2c3);
+    text-align: left;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
