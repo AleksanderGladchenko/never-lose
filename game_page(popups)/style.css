@@ -21,6 +21,8 @@ body {
     height: 1080px;
     position: relative;
     z-index: 2;
+    opacity: 0.2;
+
 }
 
 .container:before {
@@ -639,6 +641,8 @@ body {
     width: 1536px;
     height: 327px;
     position: relative;
+    opacity: 0.2;
+
 }
 
 
