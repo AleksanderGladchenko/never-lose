@@ -2035,7 +2035,7 @@ button {
     background: #020e1a;
     border-radius: 8px;
     border-style: solid;
-    border-color: #173a4f;
+    border-color: #205e7b;
     border-width: 2px;
     padding: 12px;
     display: flex;
@@ -2043,10 +2043,10 @@ button {
     gap: 16px;
     align-items: center;
     justify-content: flex-start;
-    flex-shrink: 0;
     width: 357px;
     position: relative;
 }
+
 
 .box_5_header {
     display: flex;
@@ -2067,4 +2067,131 @@ button {
     justify-content: flex-start;
     flex: 1;
     position: relative;
+}
+
+.box_5_looks {
+    color: #03a9f4;
+    text-align: left;
+    font: 600 13px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    flex: 1;
+    height: 15.6px;
+}
+
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.cross_button {
+    cursor: pointer;
+}
+
+.box_5_body {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.box_5_text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.box_5_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    flex-shrink: 0;
+    gap: 4px;
+    width: 333px;
+    position: relative;
+}
+
+.box_5_user {
+    color: #03A9F4;
+    text-align: center;
+    align-items: flex-start;
+    padding: 0;
+    justify-content: flex-start;
+    font: 600 11px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.box_5_left {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 11px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+
+.box_5_row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 333px;
+    position: relative;
+}
+
+
+.box_5_hvh {
+    color: #fdfeff;
+    text-align: left;
+    font: 600 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+
+.box_5_see_cansel {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.box_5_see {
+    padding: 6px 8px;
+    background: #03A9F4;
+    border-radius: 3px;
+    border: none;
+    color: #fdfeff;
+    text-align: left;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-self: stretch;
+}
+
+.box_5_cansel {
+    border-style: solid;
+    padding: 6px 8px;
+    border-radius: 3px;
+    border-width: 1px;
+    color: #173a4f;
+    border-color: #173a4f;
+    background-color: #060E14;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    cursor: pointer;
 }
