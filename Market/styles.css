@@ -427,21 +427,22 @@ body {
     position: relative;
 }
 
-.box_3{
-    width: 225px;
-    height: 227px;
-    border-radius: 7px;
-    box-shadow: 0 0 50px 0 rgba(3, 169, 244, 0.25);
+.box_3:focus, .box_3:hover{
+    border: solid #205e7b 2px;
+    border-radius: 6px;
+    box-shadow: 0 0 30px 0 rgba(3, 169, 244, 0.25);
+    cursor: pointer;
 }
 .pay {
     display: flex;
     flex-direction: column;
+    margin-left: 586px;
     gap: 32px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-shrink: 0;
     width: 357px;
-    position: relative;
+    position: absolute;
 }
 .m {
     display: flex;
@@ -602,38 +603,47 @@ body {
     gap: 22px;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 357px;
+    width: 344px;
     position: absolute;
     left: 0;
     top: 70px;
 }
 .input {
-    align-self: stretch;
     flex-shrink: 0;
     height: 40px;
     position: relative;
 }
-.rectangle-3 {
+
+#rectangle-3 {
+    display: flex;
+    flex-direction: column;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
     background: #070d13;
     border-radius: 10px;
     border-style: solid;
     border-color: #173a4f;
     border-width: 1px;
-    width: 337px;
+    width: 330px;
     height: 40px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    top: -3px;
+    position: relative;
+    resize: none;
+    outline: none;
+    padding-left: 10px;;
+}
+
+::placeholder {
+    color: #03a9f4;
+    opacity: 1;
+    position: relative;
+}
+
+::-ms-input-placeholder {
+    color: #03a9f4;
+
 
 }
-.placeholder {
-    color: #205e7b;
-    text-align: left;
-    font: 400 14px "Museo Sans Cyrl", sans-serif;
-    position: absolute;
-    left: 11.82px;
-    top: 11px;
-}
+
 .line-184 {
     border-style: solid;
     border-color: #173a4f;
