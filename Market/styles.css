@@ -10,7 +10,6 @@ body {
 }
 
 
-
 /*1/5 container*/
 
 
@@ -352,8 +351,6 @@ body {
 }
 
 
-
-
 .h-2-title {
     display: flex;
     margin-top: 203px;
@@ -395,7 +392,6 @@ body {
 /*main container start---------------------------------------------------------------------------------*/
 
 
-
 .main_container {
     display: flex;
     flex-direction: column;
@@ -427,12 +423,13 @@ body {
     position: relative;
 }
 
-.box_3:focus, .box_3:hover{
+.box_3:focus, .box_3:hover {
     border: solid #205e7b 2px;
     border-radius: 6px;
     box-shadow: 0 0 30px 0 rgba(3, 169, 244, 0.25);
     cursor: pointer;
 }
+
 .pay {
     display: flex;
     flex-direction: column;
@@ -444,6 +441,7 @@ body {
     width: 357px;
     position: absolute;
 }
+
 .m {
     display: flex;
     flex-direction: column;
@@ -454,6 +452,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .price {
     display: flex;
     flex-direction: row;
@@ -464,30 +463,36 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .amount {
     color: #c1c2c3;
     text-align: left;
     font: 700 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 ._1500-points {
     text-align: right;
     font: 400 32px "Museo Sans Cyrl", sans-serif;
     position: relative;
     flex: 1;
 }
+
 ._1500-points-span {
     color: #fdfeff;
     font: 700 32px "Museo Sans Cyrl", sans-serif;
 }
+
 ._1500-points-span2 {
     color: #ffffff;
     font: 400 32px "Museo Sans Cyrl", sans-serif;
 }
+
 ._1500-points-span3 {
     color: #02528b;
     font: 700 32px "Museo Sans Cyrl", sans-serif;
 }
+
 .balanse {
     border-style: solid;
     border-color: #334753;
@@ -502,20 +507,24 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .current-balance {
     color: #c1c2c3;
     text-align: left;
     position: relative;
     flex: 1;
 }
+
 .current-balance-span {
     color: #c1c2c3;
     font: 300 14px "Museo Sans Cyrl", sans-serif;
 }
+
 .current-balance-span2 {
-    color:  #c1c2c3;
+    color: #c1c2c3;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
 }
+
 .frame-75 {
     display: flex;
     flex-direction: column;
@@ -525,23 +534,28 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 ._13305-points {
     text-align: right;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 ._13305-points-span {
     color: #fdfeff;
     font: 700 14px "Museo Sans Cyrl", sans-serif;
 }
+
 ._13305-points-span2 {
     color: #c1c2c3;
     font: 400 14px "Museo Sans Cyrl", sans-serif;
 }
+
 ._13305-points-span3 {
     color: #02528b;
     font: 700 14px "Museo Sans Cyrl", sans-serif;
 }
+
 .form {
     display: flex;
     flex-direction: column;
@@ -552,6 +566,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .form_pay {
     display: flex;
     flex-direction: column;
@@ -561,37 +576,45 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .form_pay_1 {
     text-align: left;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .form_pay_before {
     color: #205e7b;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
 }
+
 .form_pay_to {
     color: #17bdff;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
 }
+
 .form_pay_and {
     color: #205e7b;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
 }
+
 .form_pay_faq {
     color: #03a9f4;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
 }
+
 .form_pay_q {
     color: #205e7b;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
 }
+
 .gift {
     flex-shrink: 0;
     width: 357px;
     height: 98px;
     position: static;
 }
+
 .gift-section {
     border-radius: 4px;
     border-style: dashed;
@@ -608,6 +631,7 @@ body {
     left: 0;
     top: 70px;
 }
+
 .input {
     flex-shrink: 0;
     height: 40px;
@@ -656,6 +680,7 @@ body {
     transform-origin: 0 0;
     transform: rotate(90deg) scale(1, 1);
 }
+
 .checkbox {
     display: flex;
     background-color: #070d13;
@@ -667,14 +692,16 @@ body {
     left: 0;
     top: 36px;
 }
+
 .label {
     flex-shrink: 0;
     width: 20px;
     height: 20px;
     position: static;
 }
+
 .rectangle-5 {
-    background:#070d13;
+    background: #070d13;
     border-radius: 4px;
     border-style: solid;
     border-color: #173a4f;
@@ -686,6 +713,7 @@ body {
     top: 0;
     box-shadow: 0 0 15px 0 rgba(3, 169, 244, 0.25);
 }
+
 .rectangle-4 {
     background: #03a9f4;
     border-radius: 2px;
@@ -697,12 +725,14 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .i-m-agree {
     color: #fdfeff;
     text-align: left;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .button {
     background: #03a9f4;
     border-radius: 4px;
@@ -717,6 +747,7 @@ body {
     height: 50px;
     position: relative;
 }
+
 .create-an-account {
     background: #03a9f4;
     border-radius: 4px;
@@ -737,9 +768,400 @@ body {
     cursor: pointer;
 }
 
-.account_history {}
+/*table------------------------------------------------------------------------------------------------------*/
+
+/*.container_table {*/
+/*    top: 768px;*/
+/*    width: 1531px;*/
+/*    height: 531px;*/
+/*    border: 1px solid red;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.account_history {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 28px;*/
+/*    align-items: flex-start;*/
+/*    justify-content: flex-start;*/
+/*    width: 1531px;*/
+/*    position: relative;*/
+/*    padding-top: 120px;*/
+/*}*/
+
+/*.account_history_title {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    gap: 20px;*/
+/*    align-items: center;*/
+/*    justify-content: flex-start;*/
+/*    flex-shrink: 0;*/
+/*    position: relative;*/
+/*    border: 1px solid green;*/
+/*}*/
+
+/*.account_history_title_ellipse {*/
+/*    background: #03a9f4;*/
+/*    border-radius: 50%;*/
+/*    flex-shrink: 0;*/
+/*    width: 5.23px;*/
+/*    height: 5px;*/
+/*    position: relative;*/
+/*    box-shadow: 2px 0 10px 0 rgba(3, 169, 244, 1);*/
+/*}*/
+
+/*.account_history {*/
+/*    color: #ffffff;*/
+/*    text-align: left;*/
+/*    font: 400 16px/20px "Museo Sans Cyrl", sans-serif;*/
+/*    text-transform: uppercase;*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: flex-start;*/
+/*    border: 1px solid green;*/
+
+/*}*/
+
+/*.account_history_table {*/
+/*    border-radius: 4px;*/
+/*    border-style: solid;*/
+/*    border-color: #205e7b;*/
+/*    border-width: 1px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 0;*/
+/*    align-items: flex-start;*/
+/*    justify-content: flex-start;*/
+/*    align-self: stretch;*/
+/*    flex-shrink: 0;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+
+/*}*/
+
+/*.account_history_bottom {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 0;*/
+/*    align-items: flex-end;*/
+/*    justify-content: flex-start;*/
+/*    align-self: stretch;*/
+/*    flex-shrink: 0;*/
+/*    position: relative;*/
+/*    border: 1px solid green;*/
+
+/*}*/
 
 
+.content-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 790px;
+
+}
+
+
+/*1/5 container > topbox */
+
+
+.content-block-top {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 24px;
+
+}
+
+.line1 {
+    border: 2px solid #334753;
+    width: 30px;
+    border-radius: 5px;
+
+}
+
+.tour {
+    color: #03a9f4;
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line2 {
+    border: 2px solid #334753;
+    width: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.neverlose_integration {
+    color: #334753;
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line3 {
+    border: 2px solid #334753;
+    width: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.marketblock {
+    color: #334753;
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line4 {
+    border: 2px solid #334753;
+    width: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/* 1/5 container > CENTERBOX*/
+
+
+/*1/5 container > 2manecenterbox*/
+
+
+.neverlose-league {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, rgba(3, 169, 244, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    border-image-slice: 1;
+    width: 767px;
+    height: 500px;
+    position: relative;
+
+
+}
+
+
+/*1/5 container > childebox*/
+
+
+.childebox {
+    width: 555px;
+    height: 413px;
+    top: 44px;
+    left: 106px;
+    gap: 40px;
+    position: relative;
+}
+
+.neverlosemane {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+
+
+}
+
+.neverlose0 {
+    flex-shrink: 0;
+    width: 555px;
+    height: 119px;
+    position: relative;
+
+}
+
+.neverlose22 {
+    color: #02528b;
+    text-align: left;
+    font: 400 90px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: -1px;
+    top: 4px;
+    width: 550.86px;
+}
+
+.neverlose33 {
+    color: #03a9f4;
+    text-align: left;
+    font: 400 90px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 1.07px;
+    top: 2px;
+    width: 550.86px;
+}
+
+.neverlose44 {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 90px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 3.14px;
+    top: 0;
+    width: 550.86px;
+}
+
+
+.league111 {
+    flex-shrink: 0;
+    width: 251px;
+    height: 81px;
+    position: relative;
+
+}
+
+.league22 {
+    color: #02528b;
+    text-align: left;
+    font: 400 64px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 152px;
+    top: 6px;
+}
+
+.league33 {
+    color: #a02323;
+    text-align: left;
+    font: 400 64px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 154px;
+    top: 4px;
+}
+
+.league44 {
+    color: #c29b1e;
+    text-align: left;
+    font: 400 64px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 156px;
+    top: 2px;
+}
+
+
+.frame {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 145px;
+    position: relative;
+
+}
+
+.posy {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+.get-matched-with-like-minded-gamers {
+    color: #c1c2c3;
+    text-align: center;
+    font: 400 16px/25px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    width: 345px;
+}
+
+.show-us-what-you-can-do {
+    color: #fdfeff;
+    text-align: center;
+    font: 400 16px/25px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    width: 345px;
+}
+
+.button {
+    background: #03a9f4;
+    border-radius: 4px;
+    padding: 12px 52px 12px 52px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.create-an-account {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.content-block-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.line11 {
+    border: 2px solid #334753;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.neverlose_integration {
+    color: #334753;
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line22 {
+    border: 2px solid #334753;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.rating-system {
+    color: #334753;
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line33 {
+    border: 2px solid #334753;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
 
 /*footer start-----------------------------------------------------------------------------------------*/
 
@@ -754,7 +1176,8 @@ body {
     flex-shrink: 0;
     width: 1536px;
     height: 327px;
-    position: relative;
+    top: 1471px;
+    position: absolute;
 }
 
 
@@ -780,7 +1203,7 @@ body {
 
 
 .neverlose_f {
-    color:#02528b;
+    color: #02528b;
     text-align: left;
     font: 400 28px "Museo Sans Cyrl", sans-serif;
     position: absolute;
@@ -931,7 +1354,7 @@ body {
 }
 
 .market_f {
-    color:#fdfeff;
+    color: #fdfeff;
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
@@ -1176,7 +1599,7 @@ body {
 }
 
 .mastercard_f {
-    color:#fdfeff;
+    color: #fdfeff;
     text-align: right;
     font: 400 16px "Museo Sans Cyrl", sans-serif;
     position: relative;
