@@ -1,0 +1,1134 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    background-color: #061118;
+    color: bisque;
+}
+
+
+/*1/5 container*/
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.top-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1536px;
+    position: relative;
+
+
+}
+
+.top-container > .logo {
+    flex-shrink: 0;
+    width: 163px;
+    height: 49px;
+    position: relative;
+    color: bisque;
+}
+
+
+.neverlose {
+    color: #02528b;
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+
+.neverlose2 {
+    color: #03a9f4;
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 1.07px;
+    top: 1px;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+
+.neverlose3 {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 2.14px;
+    top: 0;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+
+.league {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    inset: 0;
+    font-weight: bold;
+
+
+}
+
+.league2 {
+    color: #02528b;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 105.28px;
+    top: 30px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+
+.league3 {
+    color: #a02323;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 106.28px;
+    top: 29px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+
+.league4 {
+    color: #c29b1e;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 107.28px;
+    top: 28px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+
+
+.top-container > .menu-container {
+    padding: 0 60px 0 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+    color: #FDFEFF;
+
+
+}
+
+.top-container > .menu-container > .menu {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.top-container > .menu-container > .menu > div {
+    margin-left: 25px;
+
+}
+
+.top-container > .menu-container > .menu > div:nth-child(1) {
+    margin-left: 0;
+
+}
+
+
+.home {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.play {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    text-decoration: underline;
+
+}
+
+.market {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.rating {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.tournaments {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.tickets {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.faq {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+
+}
+
+
+.top-container > .nav-container {
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.gameselector {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #173a4f;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.button1 {
+    background: #03a9f4;
+    border-radius: 8px 0 0 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 61px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.cs_go {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+
+}
+
+
+.button2 {
+    border-radius: 0 8px 8px 0;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 61px;
+    position: relative;
+
+}
+
+
+.cs2 {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+
+}
+
+
+.lang-switcher {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 70.63px;
+    position: relative;
+
+}
+
+.eng {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+
+}
+
+. {
+    color: #205e7b;
+    text-align: left;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+
+}
+
+.ua {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+
+}
+
+
+.profile {
+    position: relative;
+}
+
+
+.h-2-title {
+    display: flex;
+    margin-top: 203px;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 1536px;
+    position: relative;
+}
+
+.ellipse-1100 {
+    background: #03a9f4;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 5.23px;
+    height: 5px;
+    position: relative;
+    box-shadow: 2px 0 10px 0 rgba(3, 169, 244, 1);
+}
+
+.title-block {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 24px/32px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line-1 {
+    border: 2px solid #334753;
+    width: 1px;
+    border-radius: 5px 5px 5px 5px;
+    flex: 1;
+    position: relative;
+    overflow: visible;
+}
+
+/*main container start---------------------------------------------------------------------------------*/
+
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 173px;
+    left: 192px;
+    border: 0.1px solid red;
+}
+
+/*head--------------------------------------------------------------------------------------------*/
+
+.main_container_head {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+/*1----------------------------------------------------------------------*/
+
+.main_container_head_party {
+    flex-shrink: 0;
+    width: 357px;
+    height: 180px;
+    position: relative;
+}
+
+.main_container_head_party_titleMain {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 357px;
+    position: relative;
+}
+
+.main_container_head_party_title {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    flex: 1;
+}
+
+.main_container_head_party_edit {
+    background: none;
+    cursor: pointer;
+    position: relative;
+    border: none;
+}
+
+.main_container_head_party_leader {
+    color: #205e7b;
+    text-align: left;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    width: 280px;
+}
+
+.main_container_head_party_party {
+    display: flex;
+    padding-top: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main_container_head_party_rating {
+    display: flex;
+    padding-top: 18px;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.main_container_head_party_rating_teamRating {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.number {
+    color: #03a9f4;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+/*2----------------------------------------------------------------------*/
+
+
+.main_container_head_search {
+    border-style: solid;
+    border-color: #205e7b;
+    border-width: 0 2px 0 2px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.main_container_head_search_searchButton {
+    display: flex;
+    padding: 6px 8px;
+    background: #03A9F4;
+    border-radius: 3px;
+    border: none;
+    color: #fdfeff;
+    text-align:  center;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+
+/*3----------------------------------------------------------------------*/
+
+
+.main_container_head_lobby {
+    flex-shrink: 0;
+    width: 357px;
+    height: 175px;
+    position: relative;
+}
+
+.main_container_head_search_title2 {
+    color: #334753;
+    text-align: left;
+    font: 400 20px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    flex: 1;
+}
+
+.main_container_head_lobby_partyContainer {
+    padding-top: 40px;
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main_container_head_lobby_teamRating {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.main_container_head_lobby_teamRating_symbol {
+    color: #334753;
+    text-align: left;
+    font: 700 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.main_container_head_lobby_teamRating_teamRating {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+
+/*head end-------------------------------------------------------------------------------*/
+
+
+/*bodyLine start---------------------------------------------------------------------------------------*/
+
+
+.main_container_BodyLine {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1536px;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.main_container_BodyLine_friends {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 626px;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.main_container_BodyLine_gameArea {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.main_container_BodyLine_gameArea_gameInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.main_container_BodyLine_gameArea_chat {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+/*bodyLine end---------------------------------------------------------------------------------------*/
+
+/*main container end ----------------------------------------------------------------------*/
+
+/*footer start-----------------------------------------------------------------------------------------*/
+
+.footer {
+
+    padding: 60px 192px 20px 192px;
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1536px;
+    height: 327px;
+    top: 1371px;
+    position: absolute;
+}
+
+
+.footer_row {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1536px;
+    position: relative;
+}
+
+
+.logo_f {
+    flex-shrink: 0;
+    width: 163px;
+    height: 49px;
+    position: relative;
+    color: bisque;
+}
+
+
+.neverlose_f {
+    color: #02528b;
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+
+.neverlose2_f {
+    color: #03a9f4;
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 1.07px;
+    top: 1px;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+
+.neverlose3_f {
+    color: #fdfeff;
+    text-align: left;
+    font: 400 28px "Museo Sans Cyrl", sans-serif;
+    position: absolute;
+    left: 2.14px;
+    top: 0;
+    width: 160.86px;
+    font-weight: bold;
+
+}
+
+.league_f {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    inset: 0;
+    font-weight: bold;
+
+
+}
+
+.league2_f {
+    color: #02528b;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 105.28px;
+    top: 30px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+
+.league3_f {
+    color: #a02323;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 106.28px;
+    top: 29px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+
+.league4_f {
+    color: #c29b1e;
+    text-align: left;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 107.28px;
+    top: 28px;
+    width: 61.95px;
+    font-weight: bold;
+
+}
+
+
+.frame_59_f {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+}
+
+
+.frame-41_f {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+.pages_f {
+    color: #ffffff;
+    text-align: right;
+    font: 400 24px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+
+}
+
+.frame_60_f {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+.menu_f {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.home_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.game_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.market_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.rating_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.tournaments_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.tickets_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+
+/*useful links*/
+
+
+.frame-42_f {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+
+}
+
+
+.frame_60_f {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+
+}
+
+.useful-links_f {
+    color: #ffffff;
+    text-align: right;
+    font: 400 24px "Museo Sans Cyrl", sans-serif;
+}
+
+.menu_footer_left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.terms-of-use_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.privacy-policy_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.telegram {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.tlg_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.telegram_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.nl_gmail {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.ns_gmail_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.nl_gmail_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.faq_help_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.contacts {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.vk {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.vk_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.vkontakte {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.box3_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+
+}
+
+.payment_system {
+    color: #ffffff;
+    text-align: right;
+    font: 400 24px "Museo Sans Cyrl", sans-serif;
+}
+
+.cards_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.visa {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.visa_svg {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.visa_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.mastercard {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.mastercard_svg {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.mastercard_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.mir {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.mid_svf {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.mir_f {
+    color: #fdfeff;
+    text-align: right;
+    font: 400 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.cc {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.neverlose-cc-2020-2023 {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.neverlose-llp-company-number-oc-437498 {
+    color: #c1c2c3;
+    text-align: left;
+    font: 400 12px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+
+/*footer end-----------------------------------------------------------------------------------------*/
+
