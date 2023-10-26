@@ -385,7 +385,6 @@ body {
     position: absolute;
     top: 173px;
     left: 192px;
-    border: 0.1px solid red;
 }
 
 /*head--------------------------------------------------------------------------------------------*/
@@ -578,7 +577,6 @@ body {
     flex-shrink: 0;
     width: 1536px;
     position: relative;
-    border: 1px solid red;
 }
 
 
@@ -591,7 +589,6 @@ body {
     flex-shrink: 0;
     height: 626px;
     position: relative;
-    border: 1px solid red;
 }
 
 /*list start-------------------------------------------------------------------------------*/
