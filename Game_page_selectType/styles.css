@@ -598,7 +598,7 @@ body {
 
 .container_FriendsList {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0;
     align-items: flex-start;
     justify-content: flex-start;
@@ -612,25 +612,28 @@ body {
     height: 595.63px;
     position: relative;
     left: 354px;
+    top: -4px;
+}
+.container_FriendsList_table_scroll_sliderBG {
+    background: #205e7b;
+    border-radius: 4px;
+    width: 4px;
+    height: 30.83px;
+    position: relative;
+    left: 0;
+    top: 7.02px;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
 }
 
 .container_FriendsList_table_scroll_slider {
     background: #173a4f;
     width: 4px;
-    height: 595.63px;
-    position: relative;
+    height: 631.63px;
+    position: absolute;
     left: 0;
     top: 0;
-}
-
-.container_FriendsList_table_scroll_sliderBG {
-    background: #205e7b;
-    border-radius: 4px;
-    width: 4px;
-    height: 23.83px;
-    position: relative;
-    left: 0;
-    top: 5.02px;
 }
 
 .container_FriendsList_controlPanel {
@@ -664,9 +667,9 @@ body {
 }
 
 .container_FriendsList_controlPanel_friends_search {
-    background: none;
+    background: #020e1a;
     border: none;
-    padding: 10px;
+    padding: 8px;
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -692,11 +695,22 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0;
+    width: 357px;
+    height: 626px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-shrink: 0;
-    position: absolute;
+    position: relative;
     overflow: hidden;
+}
+
+.container_FriendsList_table_onlineList{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    top: -40px;
 }
 
 .container_FriendsList_table_box1 {
