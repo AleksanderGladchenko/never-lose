@@ -714,6 +714,28 @@ body {
 }
 
 .container_FriendsList_table_box1 {
+    position: relative;
+    flex-direction: row;
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container_FriendsList_table_box1_buttonAvatar{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container_FriendsList_table_box1_title{
+    color: #fdfeff;
+    text-align: left;
+    font: 400 15px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    align-self: stretch;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .container_FriendsList_table_box2 {
