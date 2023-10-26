@@ -614,6 +614,7 @@ body {
     left: 354px;
     top: -4px;
 }
+
 .container_FriendsList_table_scroll_sliderBG {
     background: #205e7b;
     border-radius: 4px;
@@ -645,12 +646,13 @@ body {
     flex-shrink: 0;
     width: 354px;
     position: relative;
+    height: 32px;
 }
 
 .container_FriendsList_controlPanel_friends {
     background: #205e7b;
     border-radius: 4px 4px 0 0;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -658,11 +660,20 @@ body {
     justify-content: center;
     flex-shrink: 0;
     position: relative;
+    border: none;
 }
-.container_FriendsList_controlPanel_friends_title{
+
+.container_FriendsList_controlPanel_friends_title {
     color: #fdfeff;
     text-align: center;
-    font: 300 14px "Museo Sans Cyrl", sans-serif;
+    font: 300 15px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.symbol1, .symbol2 {
+    color: #c1c2c3;
+    text-align: center;
+    font: 400 15px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
 
@@ -678,7 +689,8 @@ body {
     flex-shrink: 0;
     position: relative;
 }
-.container_FriendsList_controlPanel_friends_searchButton{
+
+.container_FriendsList_controlPanel_friends_searchButton {
     color: #334753;
     text-align: center;
     font: 300 14px "Museo Sans Cyrl", sans-serif;
@@ -703,7 +715,7 @@ body {
     overflow: hidden;
 }
 
-.container_FriendsList_table_onlineList{
+.container_FriendsList_table_onlineList {
     display: flex;
     position: relative;
     justify-content: flex-start;
@@ -721,12 +733,14 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_buttonAvatar{
+
+.container_FriendsList_table_box1_buttonAvatar {
     background: none;
     border: none;
     cursor: pointer;
 }
-.container_FriendsList_table_box1_nicknameStatus{
+
+.container_FriendsList_table_box1_nicknameStatus {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -736,7 +750,7 @@ body {
     position: relative;
 }
 
-.container_FriendsList_table_box1_title{
+.container_FriendsList_table_box1_title {
     color: #fdfeff;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -747,7 +761,8 @@ body {
     border: none;
     cursor: pointer;
 }
-.container_FriendsList_table_box1_statusOnline{
+
+.container_FriendsList_table_box1_statusOnline {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -756,24 +771,27 @@ body {
     flex-shrink: 0;
     position: relative;
 }
-.container_FriendsList_table_box1_statusOnline_circle{
+
+.container_FriendsList_table_box1_statusOnline_circle {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #02528B;
 }
 
-.container_FriendsList_table_box1_statusOnline_status{
+.container_FriendsList_table_box1_statusOnline_status {
     color: #02528b;
     text-align: left;
     font: 400 10px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
-.container_FriendsList_table_box1_plusButton{
+
+.container_FriendsList_table_box1_plusButton {
     background: none;
     border: none;
     cursor: pointer;
 }
+
 
 
 .container_FriendsList_table_box2 {
@@ -785,7 +803,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title2{
+
+.container_FriendsList_table_box1_title2 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -793,18 +812,21 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #334753;
 }
-.container_FriendsList_table_box1_statusOnline_status2{
+
+.container_FriendsList_table_box1_statusOnline_status2 {
     color: #334753;
     text-align: left;
     font: 400 10px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .container_FriendsList_table_box3 {
     display: flex;
     flex-direction: row;
@@ -814,7 +836,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title3{
+
+.container_FriendsList_table_box1_title3 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -822,7 +845,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -838,7 +862,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title4{
+
+.container_FriendsList_table_box1_title4 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -846,7 +871,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -862,7 +888,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title5{
+
+.container_FriendsList_table_box1_title5 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -870,7 +897,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -886,7 +914,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title6{
+
+.container_FriendsList_table_box1_title6 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -894,7 +923,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -911,7 +941,7 @@ body {
     position: relative;
 }
 
-.container_FriendsList_table_box1_title7{
+.container_FriendsList_table_box1_title7 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -919,7 +949,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -935,7 +966,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title8{
+
+.container_FriendsList_table_box1_title8 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -943,7 +975,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -959,7 +992,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title9{
+
+.container_FriendsList_table_box1_title9 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -967,7 +1001,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -983,7 +1018,8 @@ body {
     width: 347px;
     position: relative;
 }
-.container_FriendsList_table_box1_title10{
+
+.container_FriendsList_table_box1_title10 {
     color: #334753;
     text-align: left;
     font: 400 15px "Museo Sans Cyrl", sans-serif;
@@ -991,7 +1027,8 @@ body {
     align-self: stretch;
     height: 18px;
 }
-.container_FriendsList_table_box1_statusOnline_circle2{
+
+.container_FriendsList_table_box1_statusOnline_circle2 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
