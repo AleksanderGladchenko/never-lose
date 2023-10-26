@@ -502,11 +502,11 @@ body {
     border-radius: 3px;
     border: none;
     color: #fdfeff;
-    text-align:  center;
+    text-align: center;
     font: 400 12px "Museo Sans Cyrl", sans-serif;
     text-transform: uppercase;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     z-index: 5;
 }
 
@@ -579,8 +579,8 @@ body {
     width: 1536px;
     position: relative;
     border: 1px solid red;
-
 }
+
 
 .main_container_BodyLine_friends {
     display: flex;
@@ -592,8 +592,144 @@ body {
     height: 626px;
     position: relative;
     border: 1px solid red;
-
 }
+
+/*list start-------------------------------------------------------------------------------*/
+
+.container_FriendsList {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 354px;
+    position: relative;
+}
+
+.container_FriendsList_table_scroll {
+    width: 4px;
+    height: 595.63px;
+    position: relative;
+    left: 354px;
+}
+
+.container_FriendsList_table_scroll_slider {
+    background: #173a4f;
+    width: 4px;
+    height: 595.63px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.container_FriendsList_table_scroll_sliderBG {
+    background: #205e7b;
+    border-radius: 4px;
+    width: 4px;
+    height: 23.83px;
+    position: relative;
+    left: 0;
+    top: 5.02px;
+}
+
+.container_FriendsList_controlPanel {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 354px;
+    position: relative;
+}
+
+.container_FriendsList_controlPanel_friends {
+    background: #205e7b;
+    border-radius: 4px 4px 0 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.container_FriendsList_controlPanel_friends_title{
+    color: #fdfeff;
+    text-align: center;
+    font: 300 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.container_FriendsList_controlPanel_friends_search {
+    background: none;
+    border: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.container_FriendsList_controlPanel_friends_searchButton{
+    color: #334753;
+    text-align: center;
+    font: 300 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.container_FriendsList_table {
+    background: #070d13;
+    padding: 4px 3px 4px 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.container_FriendsList_table_box1 {
+}
+
+.container_FriendsList_table_box2 {
+}
+
+.container_FriendsList_table_box3 {
+}
+
+.container_FriendsList_table_box4 {
+}
+
+.container_FriendsList_table_box5 {
+}
+
+.container_FriendsList_table_box6 {
+}
+
+.container_FriendsList_table_box7 {
+}
+
+.container_FriendsList_table_box8 {
+}
+
+.container_FriendsList_table_box9 {
+}
+
+.container_FriendsList_table_box10 {
+}
+
+/*list end-------------------------------------------------------------------------------*/
 
 .main_container_BodyLine_gameArea {
     display: flex;
