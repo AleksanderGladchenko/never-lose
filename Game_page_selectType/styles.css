@@ -790,7 +790,6 @@ body {
 }
 
 
-
 .container_FriendsList_table_box2 {
     display: flex;
     flex-direction: row;
@@ -1042,7 +1041,6 @@ body {
     justify-content: flex-start;
     flex: 1;
     position: relative;
-    border: 1px solid red;
 }
 
 .main_container_BodyLine_gameArea_gameInfo {
@@ -1054,48 +1052,92 @@ body {
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
-    border: 1px solid red;
 }
-.main_container_BodyLine_gameArea_gameInfo_title{
+
+.main_container_BodyLine_gameArea_gameInfo_title {
     color: #ffffff;
     text-align: left;
     font: 400 24px "Museo Sans Cyrl", sans-serif;
     text-transform: uppercase;
     position: relative;
 }
-.main_container_BodyLine_gameArea_gameInfo_gameMaps{
+
+.main_container_BodyLine_gameArea_gameInfo_gameMaps {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     align-self: stretch;
     flex-shrink: 0;
-    position: absolute;
+    position: relative;
     gap: 40px;
-    top: 79px;
 }
+
 .map1 {
     transform-style: preserve-3d;
-    transition: transform 0.2s;
+    transition: transform 0.3s;
     position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
 
 }
+
 .map1:focus, .map1:hover {
     border: solid #205e7b 2px;
     border-radius: 6px;
     box-shadow: 0 0 30px 0 rgba(3, 169, 244, 0.25);
     cursor: pointer;
-    position: relative;
     top: 0;
     left: 0;
-    transform: scale(1.5);
-    z-index: 3;
+    transform: scale(1.2);
+    z-index: 9;
+    position: relative;
 
 }
 
+.main_container_BodyLine_gameArea_gameInfo_aboutMap {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.main_container_BodyLine_gameArea_gameInfo_aboutMap_mode {
+    color: #ffffff;
+    text-align: right;
+    font: 600 16px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+}
+
+.main_container_BodyLine_gameArea_gameInfo_aboutMap_description {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 49px;
+    position: relative;
+}
+
+.main_container_BodyLine_gameArea_gameInfo_aboutMap_description_text {
+    color: #c1c2c3;
+    text-align: left;
+    font: 300 14px/24px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    flex: 1;
+    z-index: 1;
+}
 
 
-.main_container_BodyLine_gameArea_chat {
+.main_container_BodyLine_gameArea_chatLine {
     display: flex;
     flex-direction: row;
     gap: 36px;
@@ -1105,8 +1147,31 @@ body {
     flex-shrink: 0;
     position: relative;
     border: 1px solid red;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat {
+    background: #070d13;
+    border-style: solid;
+    border-color: #205e7b;
+    border-width: 2px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    box-shadow: var(
+            --success-box-shadow,
+            0px 0px 15px 0px rgba(3, 169, 244, 0.25)
+    );
+    overflow: hidden;
+}
+.main_container_BodyLine_gameArea_chatLine_chat_title{
 
 }
+
 
 /*bodyLine end---------------------------------------------------------------------------------------*/
 
