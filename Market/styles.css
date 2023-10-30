@@ -768,7 +768,6 @@ body {
 }
 
 
-
 .content-block {
     display: flex;
     flex-direction: column;
@@ -844,6 +843,7 @@ body {
 .table * {
     box-sizing: border-box;
 }
+
 .table {
     border-radius: 4px;
     border-style: solid;
@@ -859,6 +859,7 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 .row {
     display: flex;
     flex-direction: row;
@@ -869,6 +870,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .cell {
     background: #070d13;
     padding: 20px 16px 20px 16px;
@@ -887,6 +889,7 @@ body {
     );
     overflow: hidden;
 }
+
 .user {
     color: #fdfeff;
     text-align: left;
@@ -897,6 +900,7 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 .cell2 {
     background: #070d13;
     padding: 20px 16px 20px 16px;
@@ -914,6 +918,7 @@ body {
     );
     overflow: hidden;
 }
+
 .txt-icon {
     display: flex;
     flex-direction: row;
@@ -923,6 +928,7 @@ body {
     flex: 1;
     position: relative;
 }
+
 .user2 {
     color: #fdfeff;
     text-align: left;
@@ -933,11 +939,13 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 ._24-down {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .cell3 {
     background: #070d13;
     padding: 20px 16px 20px 16px;
@@ -955,11 +963,13 @@ body {
     );
     overflow: hidden;
 }
+
 ._24-down2 {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .cell4 {
     background: #070d13;
     padding: 20px 16px 20px 16px;
@@ -976,11 +986,13 @@ body {
     );
     overflow: hidden;
 }
+
 ._24-down3 {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .cell5 {
     background: #070d13;
     padding: 20px 16px 20px 16px;
@@ -998,6 +1010,7 @@ body {
     );
     overflow: hidden;
 }
+
 .txt-icon2 {
     display: flex;
     flex-direction: row;
@@ -1007,11 +1020,13 @@ body {
     flex: 1;
     position: relative;
 }
+
 ._24-down4 {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .cell6 {
     background: #070d13;
     padding: 20px 16px 20px 16px;
@@ -1029,6 +1044,7 @@ body {
     );
     overflow: hidden;
 }
+
 .text {
     color: #c1c2c3;
     text-align: left;
@@ -1039,6 +1055,7 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 .cell7 {
     background: #070d13;
     padding: 18px 16px 18px 16px;
@@ -1056,6 +1073,7 @@ body {
     );
     overflow: hidden;
 }
+
 .txt-ico {
     display: flex;
     flex-direction: row;
@@ -1065,11 +1083,13 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .icon {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .text2 {
     color: #c1c2c3;
     text-align: left;
@@ -1081,6 +1101,7 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 .cell8 {
     background: #070d13;
     padding: 20px 16px 20px 16px;
@@ -1099,6 +1120,7 @@ body {
     );
     overflow: hidden;
 }
+
 .cell9 {
     background: #070d13;
     padding: 10px 16px 10px 16px;
@@ -1115,6 +1137,7 @@ body {
     );
     overflow: hidden;
 }
+
 .txt-txt {
     display: flex;
     flex-direction: column;
@@ -1124,6 +1147,7 @@ body {
     flex: 1;
     position: relative;
 }
+
 .text3 {
     color: #c1c2c3;
     text-align: left;
@@ -1134,6 +1158,7 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 .description {
     color: #334753;
     text-align: left;
@@ -1145,6 +1170,7 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 .cell10 {
     background: #070d13;
     padding: 10px 16px 10px 16px;
@@ -1162,6 +1188,7 @@ body {
     );
     overflow: hidden;
 }
+
 .txt-txt2 {
     display: flex;
     flex-direction: column;
@@ -1172,6 +1199,7 @@ body {
     width: 107px;
     position: relative;
 }
+
 .description2 {
     color: #334753;
     text-align: left;
@@ -1181,6 +1209,7 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 .cell11 {
     background: #070d13;
     padding: 18px 16px 18px 16px;
@@ -1199,21 +1228,25 @@ body {
     );
     overflow: hidden;
 }
+
 .icon2 {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .icon3 {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .icon4 {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .description3 {
     color: #334753;
     text-align: left;
@@ -1224,19 +1257,23 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
+
 .description-3-span {
     color: #334753;
     font: 400 12px/20px "Museo Sans Cyrl", sans-serif;
 }
+
 .description-3-span2 {
     color: #334753;
     font: 400 10px/20px "Museo Sans Cyrl", sans-serif;
 }
+
 .icon5 {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .icon6 {
     flex-shrink: 0;
     position: relative;
@@ -1244,8 +1281,7 @@ body {
 }
 
 
-
-.content-block-bottom{
+.content-block-bottom {
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -1266,6 +1302,7 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 .pagination-btn {
     border-radius: 4px;
     border-style: solid;
@@ -1280,11 +1317,13 @@ body {
     height: 25px;
     position: relative;
 }
+
 .icon {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .pagination-btn2 {
     border-radius: 4px;
     border-style: solid;
@@ -1300,12 +1339,14 @@ body {
     flex-shrink: 0;
     position: relative;
 }
+
 ._1 {
     color: #fdfeff;
     text-align: left;
     font: 400 16px/24px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .pagination-btn3 {
     border-radius: 4px;
     border-style: solid;
@@ -1321,12 +1362,14 @@ body {
     height: 12px;
     position: relative;
 }
+
 . {
     color: #fdfeff;
     text-align: left;
     font: 400 16px/24px "Museo Sans Cyrl", sans-serif;
     position: relative;
 }
+
 .icon2 {
     flex-shrink: 0;
     position: relative;

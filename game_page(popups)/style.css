@@ -1832,7 +1832,7 @@ button {
     cursor: pointer;
 }
 
-.box_3_body{
+.box_3_body {
     display: flex;
     align-items: center;
     text-align: left;

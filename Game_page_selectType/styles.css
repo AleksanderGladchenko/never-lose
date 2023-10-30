@@ -5,8 +5,8 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1920px;
-    background-color: #061118;
     color: bisque;
+    background-color: #070d13;
 }
 
 
@@ -21,6 +21,7 @@ body {
     height: 1080px;
     position: relative;
     z-index: 2;
+    background-color: #070d13;
 }
 
 
@@ -1146,7 +1147,6 @@ body {
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
-    border: 1px solid red;
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat {
@@ -1170,32 +1170,312 @@ body {
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat_title {
+    padding: 16px 12px 13px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
 
+.main_container_BodyLine_gameArea_chatLine_chat_title_content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat_title_content_chatTitle {
+    padding: 0 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat_title_content_chatTitle_chatsTitle {
+    padding: 0 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat_title_content_chatTitle_chatsTitle_imgNumber {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.ellipse1 {
+    background: #173a4f;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+
+.ellipse1Number {
+    color: #03a9f4;
+    text-align: center;
+    font: 400 10px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    right: 15.6px;
+    bottom: 0.6px;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat_title_content_chatTitle_chatsTitle_title2 {
+    color: #fdfeff;
+    text-align: left;
+    font: 500 15px "Lao Sans Pro", sans-serif;
+    position: relative;
+    left: -10px;
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat_wrapper {
-
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat_wrapper_body {
-
+    background: #070d13;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat_wrapper_body_container {
-
+    border-style: solid;
+    border-color: #205e7b;
+    border-width: 1px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat_wrapper_body_container_list {
-
+    padding: 15px 8px 15px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat_wrapper_body_container_list_chatBoxRow1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.chatBoxRow1_text1 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.chatBoxRow1_text1Part1 {
+    color: #03a9f4;
+    text-align: center;
+    font: var(--body-bold, 600 14px/24px "Museo Sans Cyrl", sans-serif);
+    position: relative;
+    cursor: pointer;
+}
+
+.chatBoxRow1_text1Part2 {
+    color: #fdfeff;
+    text-align: center;
+    font: var(--body-bold, 300 14px/24px "Museo Sans Cyrl", sans-serif);
+    position: relative;
 }
 
 .main_container_BodyLine_gameArea_chatLine_chat_wrapper_body_container_list_chaBboxRow2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
 }
 
-.main_container_BodyLine_gameArea_chatLine_chat_wrapper_body_container_list_chatBoxRow3 {
+.chatBoxRow2_text1 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.chatBoxRow2_text2Part1 {
+    color: #03a9f4;
+    text-align: center;
+    font: var(--body-bold, 600 14px/24px "Museo Sans Cyrl", sans-serif);
+    position: relative;
+    cursor: pointer;
+}
+
+.chatBoxRow2_text2Part2 {
+    color: #fdfeff;
+    text-align: center;
+    font: var(--body-bold, 300 14px/24px "Museo Sans Cyrl", sans-serif);
+    position: relative;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat_wrapper_scroll {
+    align-self: stretch;
+    flex-shrink: 0;
+    width: 4px;
+    position: absolute;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    cursor: pointer;
+
+}
+
+.scroll_bg {
+    background: #173a4f;
+    width: 4px;
+    height: 214px;
+    position: absolute;
+    left: 740px;
+    top: -14px;
+}
+
+.scroll_slider {
+    background: #205e7b;
+    border-radius: 4px;
+    width: 4px;
+    height: 8.56px;
+    position: absolute;
+    left: 740px;
+    top: -14px;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat_wrapper_body_container_send {
+    background: #070d13;
+    border-style: solid;
+    border-color: #173a4f;
+    border-width: 1px 0 0 0;
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.main_container_BodyLine_gameArea_chatLine_chat_wrapper_body_container_send_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.wrapperText {
+    color: #205e7b;
+    text-align: left;
+    font: 400 14px "Museo Sans Cyrl", sans-serif;
+    position: relative;
+    flex: 1;
+}
+
+.wrapperSendIcon {
+    background: #173a4f;
+    border-radius: 0 2px 2px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img_banner {
+    position: relative;
+    display: flex;
+    align-items: self-end;
+}
+
+.img_banner_button {
+    position: absolute;
+    z-index: 5;
+    top: 77%;
+    left: 9px;
+    cursor: pointer;
+}
+
+.img_banner_close {
+    position: absolute;
+    top: 6.7%;
+    left: 87.7%;
+    cursor: pointer;
 }
 
 
@@ -1206,7 +1486,6 @@ body {
 /*footer start-----------------------------------------------------------------------------------------*/
 
 .footer {
-
     padding: 60px 192px 20px 192px;
     display: flex;
     flex-direction: column;
@@ -1216,8 +1495,9 @@ body {
     flex-shrink: 0;
     width: 1536px;
     height: 327px;
-    top: 1371px;
+    top: 1100px;
     position: absolute;
+    background-color: #01070d;
 }
 
 
